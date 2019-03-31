@@ -32,7 +32,7 @@ If you would like to modify, build, and run condenser using docker, it's as simp
 ```bash
 git clone https://github.com/steemit/condenser
 cd condenser
-docker build -t="myname/condenser:mybranch" .
+docker build -t=myname/condenser:mybranch .
 docker run -it -p 8080:8080 myname/condenser:mybranch
 ```
 
